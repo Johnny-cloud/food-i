@@ -1,0 +1,30 @@
+.your-veg-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.your-veg-container > *{
+    width: 600px;
+    margin: 0;
+
+}
+
+.your-veg-container .details p{
+    font-size: 18px;
+}
+
+.your-veg-container .details i{
+    font-size: 22px;
+}
+
+.your-veg-container .image-container{
+    height: 600px;
+}
+
+.your-veg-container img{
+    width: 100%;
+    height: 100%;
+}

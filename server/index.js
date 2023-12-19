@@ -3,10 +3,30 @@ import { config } from 'dotenv'
 import connectToDB from './dbConnection.js'
 import {productRoutes} from "./routes/index.js"
 import Seeder from './seeder.js'
+import cors from "cors"
+import session from 'express-session'
 
 const app = express()
 
-config()
+app.use(express.json()) // Enables receiving of json request from the server
+
+app.use(cors({
+    credentials: true,
+    origin: "http://localhost:3000"
+}))
+
+app.use(session({
+        secret: "mySecretOnlineFarmStore",
+        saveUninitialized: false,
+        resave: false,
+        cookie:{
+            httpOnly: true,
+            secure: false,
+            sameSite: "lax",
+        }
+}))
+
+config() // Enables using the process.env
 
 const port = process.env.PORT || 5001
 

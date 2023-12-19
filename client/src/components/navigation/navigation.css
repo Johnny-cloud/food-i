@@ -1,0 +1,13 @@
+.navbar{
+    background-color: rgb(232, 244, 232);
+}
+.navbar a{
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: orange;
+}

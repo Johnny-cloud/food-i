@@ -1,9 +1,12 @@
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import App from './components/app/App'
+import "./index.css"
 
 const root = createRoot(document.getElementById("root"))
 
 root.render(
-    <div>
-        <h1>Online Food Delivery</h1>
-    </div>
+   <BrowserRouter>
+        <App />
+   </BrowserRouter>
 )

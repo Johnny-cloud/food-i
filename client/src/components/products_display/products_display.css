@@ -1,0 +1,19 @@
+.products-display .banner{
+    margin-top: -50px;
+    padding: 10%;
+    background-color: rgb(233, 243, 233);
+    margin-bottom: 50px;
+}
+
+.products-and-categories-container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   position: relative;
+   margin: auto;
+}
+
+.products-and-categories-container > *{
+    height: 100%;
+}

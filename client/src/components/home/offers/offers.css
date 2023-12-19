@@ -1,0 +1,38 @@
+.offers .products-container > *{
+    width: 600px;
+}
+
+.offers .image-container-holder .image-container{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.offers .image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.offers .details p{
+    font-size: 18px;
+}
+
+.offers li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.offers ul{
+    text-align: start;
+}
+
+.offers button{
+    padding: 2%;
+    width: 200px;
+    background-color: greenyellow;
+    border: none;
+    color: rgb(9, 87, 9);
+    font-weight: bold;
+}

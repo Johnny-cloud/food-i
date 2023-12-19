@@ -1,0 +1,17 @@
+.home > *{
+    padding: 50px 0;
+}
+
+.home h1{
+    padding: 20px;
+}
+
+.your-veg, .your-veg img, button, .offers{
+    background-color: rgb(233, 245, 233);
+}
+
+.your-veg img{
+    background-color: inherit;
+    mix-blend-mode: multiply;
+}
+

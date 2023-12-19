@@ -1,0 +1,29 @@
+.categories-section{
+    width:400px;
+}
+
+.categories-section .me-auto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    text-align: start;
+    width: 100%;
+}
+
+.categories-section .me-auto a{
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.offcanvas-column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offcanvas-column > *{
+    margin: 20px;
+}
