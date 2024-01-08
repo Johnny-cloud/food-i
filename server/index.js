@@ -19,11 +19,20 @@ app.use(session({
         secret: "mySecretOnlineFarmStore",
         saveUninitialized: false,
         resave: false,
+
+        // Development
         cookie:{
             httpOnly: true,
             secure: false,
             sameSite: "lax",
         }
+
+        // // Production
+        // cookie:{
+        //     httpOnly: true,
+        //     secure: true,
+        //     sameSite: "none",
+        // }
 }))
 
 config() // Enables using the process.env
