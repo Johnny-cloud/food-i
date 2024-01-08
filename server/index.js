@@ -12,7 +12,8 @@ app.use(express.json()) // Enables receiving of json request from the server
 
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:3000"
+    // origin: "http://localhost:3000",
+    origin: "https://fooddi.vercel.app"
 }))
 
 app.use(session({
