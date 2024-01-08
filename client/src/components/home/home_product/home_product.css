@@ -5,13 +5,13 @@
 }
 
 .home-product:hover {
-    cursor: pointer;
     background-color: rgb(241, 251, 241);
 }
 
 .home-product .image-container {
     width: 100%;
     height: 400px;
+    display: block;
 }
 
 .home-product .image-container img {
@@ -32,4 +32,9 @@
     border-radius: 2px;
     background-color: rgb(219, 248, 219);
     font-weight: bold;
+}
+
+.home-product .details a{
+    text-decoration: none;
+    color: rgb(71, 145, 71);
 }

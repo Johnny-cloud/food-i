@@ -1,0 +1,22 @@
+.recent-orders{
+    width: 400px;
+}
+
+.order, .order .detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.order img{ 
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.order > *{
+    height: 50px;
+}

@@ -1,0 +1,21 @@
+.card-images-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.payment-method img{
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.payment-method form{
+    border: solid;
+    border-color: rgb(199, 255, 199);
+    border-radius: 5px;
+    border-width: 3px;
+}

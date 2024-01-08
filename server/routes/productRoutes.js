@@ -1,12 +1,12 @@
 import express from "express";
 import ProductsController from "../controllers/productsController.js";
 
-const productRoutes = express.Router()
+const router = express.Router()
 
-productRoutes.get('/', ProductsController.index)
-productRoutes.post("/", ProductsController.create)
-productRoutes.get("/:id", ProductsController.show)
-productRoutes.put("/:id", ProductsController.update)
-productRoutes.delete("/:id", ProductsController.destroy)
+router.get('/', ProductsController.get_all)
+router.post("/", ProductsController.create)
+router.get("/:id", ProductsController.get_one)
+router.put("/:id", ProductsController.update)
+router.delete("/:id", ProductsController.delete)
 
-export default productRoutes
+export default router

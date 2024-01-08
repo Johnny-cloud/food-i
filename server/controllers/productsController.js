@@ -2,7 +2,7 @@ import Product from "../models/product.js";
 
 class ProductsController{
 
-    static async index(req, res){
+   async get_all(req, res){
         try{
             const allProducts = await Product.find()
             res.json(allProducts)
@@ -12,7 +12,7 @@ class ProductsController{
         }
     }
 
-    static async create(req, res){
+   async create(req, res){
         try {
             const newProduct = await Product.create({...req.body})
             res.json(newProduct)
@@ -22,7 +22,7 @@ class ProductsController{
         }
     }
 
-    static async show(req, res){
+   async get_one(req, res){
         try{
             const product = await Product.findById(req.params.id)
             res.json(product)
@@ -32,7 +32,7 @@ class ProductsController{
         }
     }
 
-    static async update(req, res){
+   async update(req, res){
         try{
             const product = await Product.findByIdAndUpdate(req.params.id, {...req.body}, {new: true})
             res.json(product)
@@ -42,7 +42,7 @@ class ProductsController{
         }
     }
 
-    static async destroy(req, res){
+   async delete(req, res){
         try{
             await Product.findByIdAndDelete(req.params.id)
             res.status(204)
@@ -53,4 +53,4 @@ class ProductsController{
     }
 }
 
-export default ProductsController
+export default new ProductsController()

@@ -1,0 +1,29 @@
+.single-category-product{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 15px;
+}
+
+.single-category-product > *{
+    margin: 10px;
+}
+
+.single-category-product .image-container{
+    width: 50px;
+    height: 50px;
+}
+
+.single-category-product img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.category-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

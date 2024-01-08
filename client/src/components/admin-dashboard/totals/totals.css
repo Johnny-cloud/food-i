@@ -1,0 +1,29 @@
+.total{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.total .down-rate{
+    color: red;
+}
+
+.total .up-rate{
+    color: green;
+}
+
+.total b{
+    font-size: 24px;
+}
+
+.total-icon{
+    width: 50px;
+    height: 30px;
+    margin: 20% 10px;
+}
+
+.total-details{
+    padding: 20px 0;
+}

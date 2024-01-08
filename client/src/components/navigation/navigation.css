@@ -11,3 +11,12 @@
 .navbar a:hover{
     color: orange;
 }
+
+.navbar .cart-quantity{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .bi-cart4{
+    font-size: 30px;
+}

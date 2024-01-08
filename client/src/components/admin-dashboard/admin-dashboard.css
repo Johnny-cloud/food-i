@@ -1,0 +1,11 @@
+.admin-dashboard > *{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.admin-dashboard > * > *{
+    background-color: rgb(241, 248, 241);
+    margin: 10px;
+}

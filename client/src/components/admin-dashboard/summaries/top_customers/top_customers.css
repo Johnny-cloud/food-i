@@ -1,0 +1,22 @@
+.top-customers{
+    width: 400px;
+}
+
+.top-customer, .top-customer .detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.top-customer img{ 
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.top-customer > *{
+    height: 50px;
+}

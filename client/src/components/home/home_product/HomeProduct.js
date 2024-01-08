@@ -1,15 +1,34 @@
 import "./home_product.css"
+import { Link } from "react-router-dom"
+import { useContext } from "react"
+import AppContext from "../../app_context/AppContext"
 
 export const HomeProduct = ({product}) => {
+  const {setSelectedProduct, setCart, cart} = useContext(AppContext)
+
+  const setProductToDisplay = () => {
+      setSelectedProduct(product)
+  }
+
+  const addToCart = () => {
+    if(cart.find(item => item._id === product._id)){
+        alert("You already have this in cart")
+    } else{
+        setCart([...cart, {...product, quantity: 1}])
+    }
+  }
+
   return (
     <div className="home-product">
-        <div className="image-container"><img src={product.image} alt=""/></div>
+        <Link to={"/selected-product-display"} className="image-container"><img onClick={setProductToDisplay} src={product.image} alt=""/></Link>
         <div className="details">
-            <h3>{product.name}</h3>
+            <h3><Link to={"/selected-product-display"} onClick={setProductToDisplay}>{product.name}</Link></h3>
             <p>{product.category}</p>
             <p>${product.price}/KG</p>
-            <button>ADD TO CART</button>
+            <button onClick={addToCart}>ADD TO CART</button>
         </div>
     </div>
   )
 }
+
+export default HomeProduct
