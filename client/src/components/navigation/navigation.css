@@ -1,6 +1,8 @@
 .navbar{
     background-color: rgb(232, 244, 232);
+    margin-top: 0;
 }
+
 .navbar a{
     margin: 10px;
     text-decoration: none;
@@ -19,4 +21,31 @@
 
 .navbar .bi-cart4{
     font-size: 30px;
+}
+
+nav{
+    margin: 10px 0;
+}
+
+.offcanvas{
+    background-color: rgb(234, 248, 234);
+}
+
+.offcanvas .bi-x-circle{
+    font-size: 40px;
+    color: black;
+    margin: 10px auto;
+}
+
+.offcanvas > * > *{
+    margin: 10px;
+}
+
+.offcanvas > * > * > *{
+    margin: 10px;
+}
+
+.offcanvas a{
+    color: black;
+    text-decoration: none;
 }

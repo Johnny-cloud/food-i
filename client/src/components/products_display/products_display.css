@@ -3,6 +3,8 @@
     padding: 10%;
     background-color: rgb(233, 243, 233);
     margin-bottom: 50px;
+    background-image: url(https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/vegetables.jpg);
+    background-size: cover;
 }
 
 .products-and-categories-container{

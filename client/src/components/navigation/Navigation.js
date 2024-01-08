@@ -1,30 +1,36 @@
 import {Navbar, Nav, Container, Offcanvas} from "react-bootstrap"
 import {Link} from "react-router-dom"
 import "./navigation.css"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import AppContext from "../app_context/AppContext"
+
 
 const Navigation = () => {
     const {cart} = useContext(AppContext)
+    const [expanded, setExpanded] = useState(false)
+
+    const hideCanvas = () => {
+        setExpanded(false)
+    }
     return(
         <div className="navigation">
-            <Navbar expand="lg" fixed="top">
+            <Navbar expand="lg" fixed="top" expanded= {expanded}>
                 <Navbar.Brand><h1>FOODI</h1></Navbar.Brand>
                 <Container>
-                    <Navbar.Toggle />
+                    <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")}/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Navbar.Offcanvas>
-                            <Offcanvas.Header></Offcanvas.Header>
-                            <Offcanvas.Body>
+                            <Offcanvas.Header><i onClick={hideCanvas} class="bi bi-x-circle"></i></Offcanvas.Header>
+                            <Offcanvas.Body>              
                                 <Nav className="me-auto">
-                                    <Link to={"/"}>HOME</Link>
-                                    <Link to={"/products-display"}>SHOP</Link>
+                                    <Link onClick={hideCanvas} to={"/"}>HOME</Link>
+                                    <Link onClick={hideCanvas} to={"/products-display"}>SHOP</Link>
                                 </Nav>
                                 <Nav className="me-auto">
-                                    <Link to={"/cart-section"}><i class="bi bi-cart4"></i><sup className="cart-quantity">{cart.length}</sup>CART</Link>
+                                    <Link onClick={hideCanvas} to={"/cart-section"}><i class="bi bi-cart4"></i><sup className="cart-quantity">{cart.length}</sup>CART</Link>
                                 </Nav>
                                 <Nav className="me-auto">
-                                    <Link to={'/admin-dashboard'}>ADMIN DASHBOARD</Link>
+                                    <Link onClick={hideCanvas} to={'/admin-dashboard'}>ADMIN DASHBOARD</Link>
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>

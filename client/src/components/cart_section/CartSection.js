@@ -44,7 +44,7 @@ const CartSection = () => {
             </tbody>
         </Table>
         <div className="checkout-btn-container">
-            <Link to="/checkout" className="checkout-btn">Proceed To Checkout</Link >
+            <Link to="/checkout" className="checkout-btn">Proceed To Checkout <i class="bi bi-cart-check"></i></Link >
         </div>
         
     </div>

@@ -6,7 +6,7 @@ const CustomerReviews = () => {
     <div className='customer-reviews'>
         <h3>Customer Reviews</h3>
         <div className='review'>
-          <h1>4.5</h1>
+          <h1>4.5 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h1>
           <p>(4.5 out of 5)</p>
         </div>
         <p>1500 reviews</p>

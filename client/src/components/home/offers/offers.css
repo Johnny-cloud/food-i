@@ -36,3 +36,11 @@
     color: rgb(9, 87, 9);
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .offers .image-container-holder .image-container{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+}

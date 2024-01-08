@@ -12,7 +12,8 @@ import AdminDashboard from "../admin-dashboard/AdminDashboard"
 
 const App = () => {
 
-    const api = "http://localhost:8001"
+    // const api = "http://localhost:8001"
+    const api = "https://food-i-backend.vercel.app"
     const [allProducts, setAllProducts] = useState([])
     const [selectedProduct, setSelectedProduct] = useState(null)
     const [cart, setCart] = useState([])
@@ -23,7 +24,7 @@ const App = () => {
     }
 
     const fetchAllProducts = async () => {
-        const response = await fetch(`${api}/products`)
+        const response = await fetch(`${api}/products`, {credentials: "include"})
         if(response.ok){
             const fetchedProducts = await response.json()
             setAllProducts(fetchedProducts)

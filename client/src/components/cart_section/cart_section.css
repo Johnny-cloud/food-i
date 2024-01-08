@@ -28,3 +28,7 @@
 .cart-section td, .cart-section th{
     background-color: rgb(242, 253, 242);
 }
+
+.checkout-btn .bi{
+    font-size: 22px;
+}
