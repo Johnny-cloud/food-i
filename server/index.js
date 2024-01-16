@@ -10,6 +10,8 @@ const app = express()
 
 app.use(express.json()) // Enables receiving of json request from the server
 
+app.set("trust proxy", 1)
+
 app.use(cors({
     credentials: true,
     // origin: "http://localhost:3000",
@@ -21,19 +23,19 @@ app.use(session({
         saveUninitialized: false,
         resave: false,
 
-        // Development
-        cookie:{
-            httpOnly: true,
-            secure: false,
-            sameSite: "lax",
-        }
-
-        // // Production
+        // // Development
         // cookie:{
         //     httpOnly: true,
-        //     secure: true,
-        //     sameSite: "none",
+        //     secure: false,
+        //     sameSite: "lax",
         // }
+
+        // Production
+        cookie:{
+            httpOnly: true,
+            secure: true,
+            sameSite: "none",
+        }
 }))
 
 config() // Enables using the process.env
