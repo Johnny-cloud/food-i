@@ -12,7 +12,7 @@ const SingleProduct = ({product}) => {
   return (
     <Link to={"/selected-product-display"} onClick={handleClick} className='single-category-product'>
         <div className='image-container'><img src={product.image} alt='' /></div>
-        <div className='details'><h4>{product.name}</h4></div>
+        <div className='details'><h5>{product.name}</h5></div>
     </Link>
   )
 }

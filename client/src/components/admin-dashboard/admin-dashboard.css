@@ -1,3 +1,7 @@
+.admin-dashboard{
+    width: 100%;
+}
+
 .admin-dashboard > *{
     display: flex;
     flex-direction: row;

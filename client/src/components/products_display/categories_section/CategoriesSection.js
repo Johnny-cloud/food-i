@@ -34,7 +34,7 @@ const CategoriesSection = () => {
                             <Cart />
                             <div className="product-categories">
                                 <Nav className="me-auto">
-                                <h1>Product Categories</h1>
+                                <h1>Categories</h1>
                                     <Link id="all" to={"/products-display"} onClick={filterProducts}>All Products</Link>
                                     <Link id="veggie" to={"/products-display"} onClick={filterProducts}>Veggie</Link>
                                     <Link id="full flavour" to={"/products-display"} onClick={filterProducts}>Full Flavour</Link>

@@ -1,5 +1,5 @@
 import "./product_to_display.css"
-import HomeProduct from "../../home/home_product/HomeProduct"
+import Product from "../../products_display/product/Product"
 import { useContext, useEffect, useState } from "react"
 import AppContext from "../../app_context/AppContext"
 import { useNavigate } from "react-router-dom"
@@ -57,7 +57,7 @@ const ProductToDisplay = () => {
                 <div className="related-products">
                     <h1>Related Products</h1>
                     <div className="products-container">
-                        {allProducts.filter(product => product.category === selectedProduct.category).slice(0, 3).map(product => <HomeProduct product={product} />)}
+                        {allProducts.filter(product => product.category === selectedProduct.category).slice(0, 3).map(product => <Product product={product} />)}
                     </div>
                 </div>
             </div>

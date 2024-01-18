@@ -1,5 +1,5 @@
 .categories-section{
-    width:400px;
+    width:300px;
 }
 
 .categories-section .me-auto{
@@ -19,7 +19,7 @@
 
 .offcanvas-column{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
