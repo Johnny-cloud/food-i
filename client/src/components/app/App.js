@@ -8,7 +8,6 @@ import Home from "../home/Home"
 import SelectedProductDisplay from "../selected_product_display/SelectedProductDisplay"
 import CartSection from "../cart_section/CartSection"
 import Checkout from "../chekout/Checkout"
-import AdminDashboard from "../admin-dashboard/AdminDashboard"
 
 const App = () => {
 
@@ -57,7 +56,6 @@ const App = () => {
                         <Route exact path="/selected-product-display" element={<SelectedProductDisplay />} />
                         <Route exact path="/cart-section" element={<CartSection />} />
                         <Route exact path="/checkout" element={<Checkout />} />
-                        <Route exact path="/admin-dashboard" element={<AdminDashboard />} />
                     </Routes>
                 </div>
                 

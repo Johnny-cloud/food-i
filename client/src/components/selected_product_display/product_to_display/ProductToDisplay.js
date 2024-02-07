@@ -37,10 +37,10 @@ const ProductToDisplay = () => {
                     <div className="image-container"><img src={selectedProduct.image} alt="" /></div>
                     <div className="details">
                         <p>{selectedProduct.category.toUpperCase()}</p>
-                        <h1>{selectedProduct.name}</h1>
+                        <h3>{selectedProduct.name}</h3>
                         <p>$ {selectedProduct.price} / KG</p>
                         <div>
-                            <h3>Quantity</h3>
+                            <h4>Quantity</h4>
                             <div className="quantity-buttons">
                                 <button onClick={decreaseQuantity}>-</button>
                                 <span className="quantity-container">{quantity}</span>

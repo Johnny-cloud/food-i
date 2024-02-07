@@ -7,7 +7,7 @@ const Cart = () => {
 
     return (
         <div className='cart'>
-            <h1>Cart</h1>
+            <h4>Cart</h4>
             {cart.length > 0 ? (
                 cart.map(item => <CartItem cartItem={item} key={item._id} />)
             ) : "No products in cart"}

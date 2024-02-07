@@ -1,0 +1,22 @@
+.skilled-team .member{
+    margin: 15px;
+}
+
+.skilled-team i{
+    font-size: 22px;
+    margin: 10px;
+}
+
+.skilled-team .member > *{
+    margin-bottom: 10px;
+}
+
+.skilled-team .member .image-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.skilled-team img{
+    border-radius: 50%;
+}

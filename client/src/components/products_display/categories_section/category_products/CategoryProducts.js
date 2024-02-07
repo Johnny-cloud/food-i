@@ -8,7 +8,7 @@ const CategoryProducts = () => {
 
     return(
         <div className="category-products">
-            <h1>Products</h1>
+            <h4>Products</h4>
             {allProducts.slice(10, 15).map(product => <SingleProduct key={product._id} product={product} />)}
         </div>
     )

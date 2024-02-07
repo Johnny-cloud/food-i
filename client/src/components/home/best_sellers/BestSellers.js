@@ -9,7 +9,7 @@ const BestSellers = () => {
     if(allProducts){
         return(
             <div className="best-sellers">
-                <h1>Customers Favourites</h1>
+                <h1>Favourite Veggies</h1>
                 <div className="products-container">
                     {allProducts.slice(0, 4).map(product => <HomeProduct product={product} key={product._id} />)}
                 </div>

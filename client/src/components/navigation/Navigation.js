@@ -13,8 +13,7 @@ const Navigation = () => {
         setExpanded(false)
     }
     return(
-        <div className="navigation">
-            <Navbar expand="lg" fixed="top" expanded= {expanded}>
+            <Navbar expand='lg' sticky="top"  expanded= {expanded}>
                 <Navbar.Brand><h1>FOODI</h1></Navbar.Brand>
                 <Container>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")}/>
@@ -29,15 +28,11 @@ const Navigation = () => {
                                 <Nav className="me-auto">
                                     <Link onClick={hideCanvas} to={"/cart-section"}><i class="bi bi-cart4"></i><sup className="cart-quantity">{cart.length}</sup>CART</Link>
                                 </Nav>
-                                <Nav className="me-auto">
-                                    <Link onClick={hideCanvas} to={'/admin-dashboard'}>ADMIN DASHBOARD</Link>
-                                </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
     )
 }
 

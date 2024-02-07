@@ -8,11 +8,20 @@ const YourVeg = () => {
     <div className='your-veg-container'>
         <div className='details'>
             <h1>Broccoli</h1>
-            <p><i>We deliver organic vegetables fresh from our fields to your doorstep with utmost care and smile.</i></p>
-            <h4>Benefits</h4>
             <p>Broccoli is a cruciferous vegetable that belongs to the Brassica genus of plants. It’s a type of flower and has a thick, central stalk with grayish-green 
             leaves and green florets (there are some purple varieties). It is versatile and easy to find in most grocery stores.</p>
-        </div>
+            <h4>Benefits</h4>
+            <p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> Reducing the risk of cancer</li>
+              <li><i class="bi bi-check2-circle"></i> Improving bone health</li>
+              <li><i class="bi bi-check2-circle"></i> Boosting immune health</li>
+              <li><i class="bi bi-check2-circle"></i> Improving skin health</li>
+              <li><i class="bi bi-check2-circle"></i> Aiding digestion</li>
+            </ul>
+            </p>
+            
+            </div>
         <div className='image-container'>
             <img src={broccoli} alt='' />
         </div>

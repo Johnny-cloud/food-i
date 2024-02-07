@@ -1,10 +1,11 @@
 .offers .products-container > *{
     width: 600px;
+    margin: 15px;
 }
 
-.offers .image-container-holder .image-container{
-    width: 600px;
-    height: 600px;
+.offers .image-container{
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
 }
 
@@ -17,6 +18,7 @@
 
 .offers .details p{
     font-size: 18px;
+    text-align: justify;
 }
 
 .offers li{
@@ -38,9 +40,9 @@
 }
 
 @media screen and (max-width: 600px) {
-    .offers .image-container-holder .image-container{
-        width: 400px;
-        height: 400px;
+    .offers .image-container{
+        width: 350px;
+        height: 350px;
         border-radius: 50%;
     }
 }

@@ -1,0 +1,11 @@
+.stat{
+    margin: 15px;
+    text-align: justify;
+}
+
+.stat h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: -10px 10px 0;
+    padding: 0;
+}

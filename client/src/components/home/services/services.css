@@ -1,0 +1,27 @@
+.home-service{
+    border-right: solid;
+    border-color: grey;
+    margin: 15px;
+    width: 350px;
+    height: 80px;
+}
+
+.home-service .details{
+    padding: 0 10px;
+    text-align: start;
+    width: 250px;
+}
+
+.home-service .icon i{
+    font-size: 30px;
+    color: green;
+}
+
+.home-service .icon{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid;
+    border-color: green;
+}

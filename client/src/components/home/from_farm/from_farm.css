@@ -1,0 +1,14 @@
+.from-farm .flex-row-center > *{
+    width: 360px;
+    height: 360px;
+    margin: 15px;
+    text-align: justify;
+}
+
+.from-farm .image-container, .from-farm img{
+    border-radius: 50%;
+}
+
+.from-farm .details > *{
+    margin: 20px;
+}

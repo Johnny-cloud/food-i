@@ -6,22 +6,23 @@
     position: relative;
 }
 
+.your-veg-container .details, ul{
+    text-align: start;
+}
+
+
 .your-veg-container > *{
     width: 600px;
-    margin: 0;
+    margin: 15px;
 
-}
-
-.your-veg-container .details p{
-    font-size: 18px;
-}
-
-.your-veg-container .details i{
-    font-size: 22px;
 }
 
 .your-veg-container .image-container{
-    height: 600px;
+    height: 400px;
+    width: 400px;
+    border: solid;
+    border-color: green;
+    border-radius: 50%;
 }
 
 .your-veg-container img{
@@ -32,6 +33,7 @@
 
 @media screen and (max-width: 600px) {
     .your-veg-container .image-container{
-        height: 400px;
+        height: 350px;
+        width: 350px;
     }
 }

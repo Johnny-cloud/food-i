@@ -1,8 +1,8 @@
 .products-display .banner{
-    padding: 10% 0;
+    height: 400px;
     background-color: rgb(233, 243, 233);
     margin-bottom: 50px;
-    background-image: url(https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/vegetables.jpg);
+    background-image: url(https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
 }
 
@@ -15,7 +15,10 @@
    margin: auto;
 }
 
-.products-and-categories-container > *{
-    height: 100%;
-    margin: 5px;
+@media screen and (max-width: 600px) {
+
+    .products-display .banner{
+        height: 200px;
+    }
+    
 }

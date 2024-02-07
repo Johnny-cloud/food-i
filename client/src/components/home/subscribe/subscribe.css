@@ -1,0 +1,19 @@
+.subscribe > *{
+    margin-bottom: 15px;
+}
+
+.subscribe form input, .subscribe button{
+    margin: 15px;
+    padding: 10px 15px;
+}
+
+.subscribe form button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe form button:hover{
+    background-color: orange;
+}

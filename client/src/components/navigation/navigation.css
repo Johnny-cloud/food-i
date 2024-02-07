@@ -1,6 +1,9 @@
+
 .navbar{
-    background-color: rgb(232, 244, 232);
-    margin-top: 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 0;
 }
 
 .navbar a{
@@ -23,9 +26,6 @@
     font-size: 30px;
 }
 
-nav{
-    margin: 10px 0;
-}
 
 .offcanvas{
     background-color: rgb(234, 248, 234);

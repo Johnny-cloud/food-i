@@ -22,7 +22,7 @@ export const HomeProduct = ({product}) => {
     <div className="home-product">
         <Link to={"/selected-product-display"} className="image-container"><img onClick={setProductToDisplay} src={product.image} alt=""/></Link>
         <div className="details">
-            <h3><Link to={"/selected-product-display"} onClick={setProductToDisplay}>{product.name}</Link></h3>
+            <h4><Link to={"/selected-product-display"} onClick={setProductToDisplay}>{product.name}</Link></h4>
             <p>{product.category}</p>
             <p>${product.price}/KG</p>
             <button onClick={addToCart}>ADD TO CART</button>

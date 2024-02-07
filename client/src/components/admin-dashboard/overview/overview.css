@@ -1,9 +1,0 @@
-.overview > *{
-    width: 550px;
-}
-
-.overview > * td, .overview > * th{
-    padding: 17px;
-    background-color: rgb(245, 255, 245);
-    text-align: start;
-}
