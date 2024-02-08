@@ -1,0 +1,18 @@
+.about-us .contents-container{
+    padding: 30px 0;
+}
+
+.about-us .contents-container > *{
+    max-width: 500px;
+    margin: 10px;
+    text-align: start;
+}
+
+.about-us .image-container{
+    width: 350px;
+    height: 350px;
+}
+
+.about-us img{
+    border-radius: 50%;
+}

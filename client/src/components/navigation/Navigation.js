@@ -22,11 +22,12 @@ const Navigation = () => {
                             <Offcanvas.Header><i onClick={hideCanvas} class="bi bi-x-circle"></i></Offcanvas.Header>
                             <Offcanvas.Body>              
                                 <Nav className="me-auto">
-                                    <Link onClick={hideCanvas} to={"/"}>HOME</Link>
-                                    <Link onClick={hideCanvas} to={"/products-display"}>SHOP</Link>
+                                    <Link onClick={hideCanvas} to={"/"}>Home</Link>
+                                    <Link onClick={hideCanvas} to={'/about-us'}>About us</Link>
+                                    <Link onClick={hideCanvas} to={"/products-display"}>Shop</Link>
                                 </Nav>
                                 <Nav className="me-auto">
-                                    <Link onClick={hideCanvas} to={"/cart-section"}><i class="bi bi-cart4"></i><sup className="cart-quantity">{cart.length}</sup>CART</Link>
+                                    <Link onClick={hideCanvas} to={"/cart-section"}><i class="bi bi-cart4"></i><sup className="cart-quantity">{cart.length}</sup>Cart</Link>
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>

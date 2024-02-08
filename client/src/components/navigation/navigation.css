@@ -10,10 +10,9 @@
     margin: 10px;
     text-decoration: none;
     color: inherit;
-    font-size: 18px;
 }
 
-.navbar a:hover{
+.navbar a:hover, .navbar a:focus{
     color: orange;
 }
 
@@ -26,10 +25,6 @@
     font-size: 30px;
 }
 
-
-.offcanvas{
-    background-color: rgb(234, 248, 234);
-}
 
 .offcanvas .bi-x-circle{
     font-size: 40px;

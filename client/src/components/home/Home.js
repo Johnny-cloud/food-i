@@ -9,6 +9,8 @@ import Stats from "./stats/Stats"
 import SkilledTeam from "./skilled_team/SkilledTeam"
 import WeOffer from "./we_offer/WeOffer"
 import Subscribe from "./subscribe/Subscribe"
+import Testimonials from "./testimonials/Testimonials"
+import FamilyEating from "./family_eating/FamilyEating"
 
 const Home = () => {
     return(
@@ -21,8 +23,11 @@ const Home = () => {
             <YourVeg />
             <BestSellers />
             <Offers />
+            <FamilyEating />
             <SkilledTeam />
+            <Testimonials />
             <Subscribe />
+            
         </div>
     )
 }
