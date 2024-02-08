@@ -9,6 +9,7 @@ import SelectedProductDisplay from "../selected_product_display/SelectedProductD
 import CartSection from "../cart_section/CartSection"
 import Checkout from "../chekout/Checkout"
 import AboutUs from "../about_us/AboutUs"
+import ContactUs from "../contact_us/ContactUs"
 
 const App = () => {
 
@@ -58,6 +59,7 @@ const App = () => {
                         <Route exact path="/cart-section" element={<CartSection />} />
                         <Route exact path="/checkout" element={<Checkout />} />
                         <Route exact path="/about-us" element={<AboutUs />} />
+                        <Route exact path="/contact-us" element={<ContactUs />} />
                     </Routes>
                 </div>
                 

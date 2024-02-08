@@ -36,11 +36,13 @@ const ProductToDisplay = () => {
                 <div className="selected-product">
                     <div className="image-container"><img src={selectedProduct.image} alt="" /></div>
                     <div className="details">
-                        <p>{selectedProduct.category.toUpperCase()}</p>
-                        <h3>{selectedProduct.name}</h3>
-                        <p>$ {selectedProduct.price} / KG</p>
+                        <h4>{selectedProduct.name}</h4>
+                        <p><b>$ {selectedProduct.price} / KG</b></p>
+                        <p>If a person is taking blood thinners, such as warfarin (Coumadin), they should use caution when increasing their intake of dark leafy greens.</p> 
+                        <p>Doctors recommend maintaining a consistent vitamin K intake over time for people taking these medications.</p>
+                   
                         <div>
-                            <h4>Quantity</h4>
+                            <h5>Quantity</h5>
                             <div className="quantity-buttons">
                                 <button onClick={decreaseQuantity}>-</button>
                                 <span className="quantity-container">{quantity}</span>
@@ -48,10 +50,20 @@ const ProductToDisplay = () => {
                             </div>
                         </div>
                         <button className="add-to-cart-btn" onClick={addToCart}>ADD TO CART</button>
+                        <p><b>Category: </b>{selectedProduct.category}</p>
+                        <p><b>Tags: </b>Organic, Healthy</p>
                     </div>
                     <div className="description">
                         <h2>Description</h2>
-                        <p>{selectedProduct.description}</p>
+                        <p>A diet rich in vegetables and fruits can lower blood pressure, reduce the risk of heart disease and stroke, prevent some types of cancer,
+                             lower risk of eye and digestive problems, and have a positive effect upon blood sugar, which can help keep appetite in check. </p>
+                        <p>
+                            <ul>
+                                <li><i class="bi bi-check-circle"></i> Healthy</li>
+                                <li><i class="bi bi-check-circle"></i> Organic</li>
+                                <li><i class="bi bi-check-circle"></i> Fresh</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
                 <div className="related-products">

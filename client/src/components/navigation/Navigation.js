@@ -25,6 +25,7 @@ const Navigation = () => {
                                     <Link onClick={hideCanvas} to={"/"}>Home</Link>
                                     <Link onClick={hideCanvas} to={'/about-us'}>About us</Link>
                                     <Link onClick={hideCanvas} to={"/products-display"}>Shop</Link>
+                                    <Link onClick={hideCanvas} to={"/contact-us"}>Contact us</Link>
                                 </Nav>
                                 <Nav className="me-auto">
                                     <Link onClick={hideCanvas} to={"/cart-section"}><i class="bi bi-cart4"></i><sup className="cart-quantity">{cart.length}</sup>Cart</Link>

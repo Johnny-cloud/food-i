@@ -1,0 +1,67 @@
+.contact-us .main-content{
+    padding: 50px 0;
+}
+
+.contact-us .main-content > *{
+    max-width: 700px;
+    text-align: start;
+    margin: 15px;
+}
+
+.contact-us form{
+    justify-content: flex-start;
+}
+
+.contact-us form > *{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.contact-us form .textarea{
+    width: 100%;
+}
+
+.contact-us input, .contact-us textarea{
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.contact-us input:focus, .contact-us textarea:focus{
+    outline: none;
+}
+
+.contact-us button{
+    padding: 3%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.contact-us button:hover{
+    background-color: orange;
+}
+
+
+
+.contact-us .get-in-touch{
+    width: 360px;
+}
+
+.contact-us .get-in-touch > *{
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.contact-us .get-in-touch .flex-row-center{
+    justify-content: flex-start;
+}
+
+.contact-us .get-in-touch .icon{
+    margin-right: 15px;
+    font-size: 35px;
+    color: green;
+}

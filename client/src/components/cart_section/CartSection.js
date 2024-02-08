@@ -24,25 +24,18 @@ const CartSection = () => {
   return (
     <div className='cart-section'>
         <h1>My Cart</h1>
-        <Table striped bordered hover>
-            <thead>
-                <tr>
-                    <th>Product</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
+        <table>
             <tbody>
                 {useContext(AppContext).cart.map((item, index) => <CartItem key={index} cartItem={item} updateTotals={updateTotals}/>)}
                 <tr>
-                    <td><h4>Total</h4></td>
-                    <td></td>
-                    <td></td>
-                    <td><h3>${Math.round(totals)}</h3></td>
+                    <div className="flex-row-center">
+                        <div><h4>Total</h4></div>
+                        <div><h3>${Math.round(totals)}</h3></div>
+                    </div>
+                    
                 </tr>
             </tbody>
-        </Table>
+        </table>
         <div className="checkout-btn-container">
             <Link to="/checkout" className="checkout-btn">Proceed To Checkout <i class="bi bi-cart-check"></i></Link >
         </div>

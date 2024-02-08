@@ -31,13 +31,20 @@ const CartItem = ({cartItem, updateTotals}) => {
     if(cartItem){
         cartItem.quantity = quantity
         return (
-                <tr key={cartItem._id}>
-                    <td>{cartItem.name}</td>
-                    <td>${cartItem.price}</td>
-                    <td><button onClick={reduceQuantity}>-</button>{cartItem.quantity}<button onClick={increaseQuantity}>+</button></td>
-                    <td>${Math.round(cartItem.price * cartItem.quantity)}</td>
-                    <td><button onClick={deleteItem} className='delete-btn'><i class="bi bi-trash-fill"></i></button></td>
-                </tr>
+                <tr key={cartItem._id} className='cart-item flex-row-center'>
+                    <div className='details flex-row-center'>
+                        <div><img src={cartItem.image} alt=''/></div>
+                        <td>{cartItem.name}</td>
+                        <td>${cartItem.price}</td>
+                    
+                    </div>
+                    <div className='flex-row-center'>
+                        <td><button onClick={reduceQuantity}>-</button>{cartItem.quantity}<button onClick={increaseQuantity}>+</button></td>
+                        
+                        <td><button onClick={deleteItem} className='delete-btn'><i class="bi bi-trash-fill"></i></button></td>
+                    
+                    </div>
+                 </tr>
           )
     }
   

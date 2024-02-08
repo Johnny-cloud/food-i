@@ -1,9 +1,9 @@
 import './landing_top.css'
 
-const LandingTop = () => {
+const LandingTop = ({title}) => {
   return (
     <div className='landing-top'>
-        
+        <h1>{title}</h1>
     </div>
   )
 }

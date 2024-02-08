@@ -1,7 +1,7 @@
-.selected-product-display{
+.selected-product-display .main-content{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
+    padding: 50px 0;
 }

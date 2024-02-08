@@ -3,6 +3,7 @@ import CategoriesSection from "../products_display/categories_section/Categories
 import ProductToDisplay from "./product_to_display/ProductToDisplay"
 import { useContext, useEffect } from "react"
 import AppContext from "../app_context/AppContext"
+import LandingTop from "../landing_top/LandingTop"
 
 const SelectedProductDisplay = () => {
     const {cart} = useContext(AppContext)
@@ -12,8 +13,12 @@ const SelectedProductDisplay = () => {
     }, [cart.length])
   return (
     <div className="selected-product-display">
-        <ProductToDisplay />
-        <CategoriesSection />
+        <LandingTop title={'Shop'}/>
+        <div className="main-content">
+          <ProductToDisplay />
+          <CategoriesSection />
+        </div>
+        
     </div>
   )
 }

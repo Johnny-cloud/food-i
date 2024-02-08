@@ -1,11 +1,17 @@
 import './about_us.css'
 import LandingTop from '../landing_top/LandingTop'
 import Stats from '../home/stats/Stats'
+import {useEffect} from 'react'
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
   return (
     <div className='about-us'>
-        <LandingTop />
+        <LandingTop title={'About Us'} />
         <div className='contents-container flex-row-center'>
             <div className='details '>
                 <h1>Our Mision</h1>
@@ -17,7 +23,7 @@ const AboutUs = () => {
         <Stats />
         <div className='contents-container flex-row-center'>
             <div className='details vision'>
-                <h1>Our Vission</h1>
+                <h1>Our Vision</h1>
                 <p>Our vision is a healthy world where people live to their old age because of healthy food choices.</p>
                 <p>A future of long lives is our global mission.</p>
             </div>

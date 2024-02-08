@@ -4,6 +4,7 @@ import CategoriesSection from "./categories_section/CategoriesSection"
 import { useEffect } from "react"
 import { useContext } from "react"
 import AppContext from "../app_context/AppContext"
+import LandingTop from "../landing_top/LandingTop"
 
 const ProductsDisplay = () => {
   const {cart, filteredProducts} = useContext(AppContext)
@@ -21,7 +22,7 @@ const ProductsDisplay = () => {
   }, [cart.length])
     return(
       <div className='products-display'>
-        <div className='banner'></div>
+        <LandingTop title={'Shop With Us!'} />
         <div className="products-and-categories-container">
           <ProductsSection />
           <CategoriesSection />
