@@ -24,6 +24,9 @@ const PaymentMethod = () => {
                 <Form.Control type="text" placeholder="Expiration Date" />
             </Form.Group>
         </Form>
+        <div className="order-btn-container"> 
+            <button>Place Order</button>
+        </div>
     </div>
   )
 }

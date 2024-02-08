@@ -15,7 +15,7 @@ const CartSummary = () => {
   return (
     <div className='cart-summary'>
         <h3>Cart Summary</h3>
-       <Table striped>
+       <table>
             <thead>
                 <th>Name</th>
                 <th>Price</th>
@@ -26,12 +26,12 @@ const CartSummary = () => {
                     <CartSummaryItem key={item._id} item={item} />
                 ))}
                 <tr>
-                  <td><h4>Subtotal</h4></td>
+                  <td><h5>Subtotal</h5></td>
                   <td></td>
-                  <td><h4>${subTotal}</h4></td>
+                  <td><h5>${subTotal}</h5></td>
                 </tr>
             </tbody>
-       </Table>
+       </table>
     </div>
   )
 }

@@ -33,7 +33,7 @@ const CartItem = ({cartItem, updateTotals}) => {
         return (
                 <tr key={cartItem._id} className='cart-item flex-row-center'>
                     <div className='details flex-row-center'>
-                        <div><img src={cartItem.image} alt=''/></div>
+                        <td><img src={cartItem.image} alt=''/></td>
                         <td>{cartItem.name}</td>
                         <td>${cartItem.price}</td>
                     

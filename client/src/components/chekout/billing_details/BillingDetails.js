@@ -27,6 +27,10 @@ const BillingDetails = () => {
                 <Form.Control type="text" placeholder="State" />
             </Form.Group>
             <Form.Group>
+                <Form.Label>Zip Code</Form.Label>
+                <Form.Control type="text" placeholder="Zip Code" />
+            </Form.Group>
+            <Form.Group>
                 <Form.Label>Phone</Form.Label>
                 <Form.Control type="number" placeholder="XXXXXXX" />
             </Form.Group>
