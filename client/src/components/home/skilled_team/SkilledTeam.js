@@ -1,6 +1,10 @@
 import './skilled_team.css'
+import {Link} from 'react-router-dom'
+import { useContext } from 'react'
+import AppContext from '../../app_context/AppContext'
 
 const SkilledTeam = () => {
+    const {setSelectedMember} = useContext(AppContext)
     const teamMembers = [
         { 
             name : "Judith",
@@ -31,7 +35,7 @@ const SkilledTeam = () => {
                 teamMembers.map(member => {
                     return(
                         <div className='member'>
-                            <div className='image-container'><img src={member.image} alt='' /></div>
+                            <Link to={'/team-member-details'} onClick={() => setSelectedMember(member)} className='image-container'><img src={member.image} alt='' /></Link>
                             <h4>{member.name}</h4>
                             <h6>{member.title}</h6>
                             <p><i class="bi bi-twitter"></i> <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i></p>

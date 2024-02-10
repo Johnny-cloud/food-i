@@ -1,0 +1,37 @@
+.team-member-details .main-content{
+    padding: 50px 0;
+}
+
+.team-member-details .main-content > *{
+    max-width: 1000px;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+.team-member-details .image-container{
+    width: 500px;
+    height: 500px;
+}
+
+.team-member-details .member-section{
+    justify-content: flex-start;
+}
+
+.team-member-details .member-section > *{
+    margin: 15px;
+}
+
+.team-member-details .member-section .details{
+    margin: auto 15px;
+}
+
+.team-member-details .member-section img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .team-member-details .image-container{
+        width: 350px;
+        height: 350px;
+    }
+}

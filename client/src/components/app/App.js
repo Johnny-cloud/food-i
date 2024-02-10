@@ -10,6 +10,7 @@ import CartSection from "../cart_section/CartSection"
 import Checkout from "../chekout/Checkout"
 import AboutUs from "../about_us/AboutUs"
 import ContactUs from "../contact_us/ContactUs"
+import TeamMemberDetails from "../team_member_details/TeamMemberDetails"
 
 const App = () => {
 
@@ -19,9 +20,10 @@ const App = () => {
     const [selectedProduct, setSelectedProduct] = useState(null)
     const [cart, setCart] = useState([])
     const [filteredProducts, setFilteredProducts] = useState([])
+    const [selectedMember, setSelectedMember] = useState(null)
 
     const contextValues = {allProducts, selectedProduct, setSelectedProduct, cart, setCart,
-    filteredProducts, setFilteredProducts
+    filteredProducts, setFilteredProducts, selectedMember, setSelectedMember
     }
 
     const fetchAllProducts = async () => {
@@ -60,6 +62,7 @@ const App = () => {
                         <Route exact path="/checkout" element={<Checkout />} />
                         <Route exact path="/about-us" element={<AboutUs />} />
                         <Route exact path="/contact-us" element={<ContactUs />} />
+                        <Route exact path="/team-member-details" element={<TeamMemberDetails />} />
                     </Routes>
                 </div>
                 

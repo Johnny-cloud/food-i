@@ -32,6 +32,10 @@
     margin: 10px auto;
 }
 
+.offcanvas{
+    text-align: start;
+}
+
 .offcanvas > * > *{
     margin: 10px;
 }

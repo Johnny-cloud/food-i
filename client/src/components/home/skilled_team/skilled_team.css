@@ -12,8 +12,9 @@
 }
 
 .skilled-team .member .image-container{
-    width: 270px;
-    height: 270px;
+    display: block;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
 }
 
