@@ -1,4 +1,5 @@
 import "./offers.css"
+import { Link } from "react-router-dom"
 
 const Offers = () => {
   return (
@@ -20,7 +21,7 @@ const Offers = () => {
                         <li><i class="bi bi-check2-circle"></i> Curly Kale 300g</li>
                     </ul>
                 </p>
-                <button>ORDER NOW</button>
+                <Link to={'/products-display'}><button>ORDER NOW</button></Link>
             </div>
         </div>
     </div>

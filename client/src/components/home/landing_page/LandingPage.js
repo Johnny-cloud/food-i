@@ -4,7 +4,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
         <div className="overlay"></div>
-        <h1>VEGETABLES FRESH FROM THE FARM.</h1>
+        <h1>Healthy & Tasty Organic Food.</h1>
     </div>
   )
 }

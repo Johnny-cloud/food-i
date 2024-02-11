@@ -33,10 +33,14 @@
 .offers button{
     padding: 2%;
     width: 200px;
-    background-color: greenyellow;
+    background-color: green;
     border: none;
-    color: rgb(9, 87, 9);
+    color: white;
     font-weight: bold;
+}
+
+.offers button:hover{
+    background-color: orange;
 }
 
 @media screen and (max-width: 600px) {
