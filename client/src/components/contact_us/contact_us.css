@@ -8,30 +8,6 @@
     margin: 15px;
 }
 
-.contact-us form{
-    justify-content: flex-start;
-}
-
-.contact-us form > *{
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-}
-
-.contact-us form .textarea{
-    width: 100%;
-}
-
-.contact-us input, .contact-us textarea{
-    border: none;
-    border-bottom: solid;
-    border-width: 1px;
-    border-color: orange;
-}
-
-.contact-us input:focus, .contact-us textarea:focus{
-    outline: none;
-}
 
 .contact-us button{
     padding: 3%;
