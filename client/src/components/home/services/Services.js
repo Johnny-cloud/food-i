@@ -2,7 +2,7 @@ import './services.css'
 
 const Services = () => {
   return (
-    <div className='home-services flex-row-center'>
+    <div className='home-services flex-row-center dark-background'>
         <div className='home-service flex-row-center'>
             <div className='icon'><i class="bi bi-percent"></i></div>
             <div className='details'>

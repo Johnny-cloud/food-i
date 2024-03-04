@@ -2,7 +2,7 @@ import './stats.css'
 
 const Stats = () => {
   return (
-    <div className='stats'>
+    <div className='stats dark-background'>
         <div className='flex-row-center'>
             <div className='stat flex-row-center'>
                 <h2>8</h2>

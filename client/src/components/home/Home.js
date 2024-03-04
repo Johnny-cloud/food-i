@@ -11,6 +11,7 @@ import WeOffer from "./we_offer/WeOffer"
 import Subscribe from "./subscribe/Subscribe"
 import Testimonials from "./testimonials/Testimonials"
 import FamilyEating from "./family_eating/FamilyEating"
+import FeaturedProducts from "./featured_products/FeaturedProducts"
 
 const Home = () => {
     return(
@@ -18,6 +19,7 @@ const Home = () => {
             <LandingPage />
             <Services />
             <WeOffer />
+            <FeaturedProducts />
             <FromFarm />
             <Stats />
             <YourVeg />

@@ -2,7 +2,7 @@ import './testimonials.css'
 
 const Testimonials = () => {
   return (
-    <div className='testimonials'>
+    <div className='testimonials dark-background'>
         <h1>What Our Clients Say</h1>
         <div className='flex-row-center'>
             <div className='testimony'>

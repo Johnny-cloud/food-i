@@ -1,21 +1,21 @@
-import "./best_sellers.css"
+import "./featured_products.css"
 import { HomeProduct } from "../home_product/HomeProduct"
 import { useContext } from "react"
 import AppContext from "../../app_context/AppContext"
 
-const BestSellers = () => {
+const FeaturedProducts = () => {
     const {allProducts} = useContext(AppContext)
 
     if(allProducts){
         return(
-            <div className="best-sellers dark-background">
-                <h1>Favourite Veggies</h1>
+            <div className="featured-products dark-background">
+                <h1>Featured Products</h1>
                 <div className="products-container">
-                    {allProducts.slice(0, 4).map(product => <HomeProduct product={product} key={product._id} />)}
+                    {allProducts.slice(12, 16).map(product => <HomeProduct product={product} key={product._id} />)}
                 </div>
             </div>
         )
     }
 }
 
-export default BestSellers
+export default FeaturedProducts

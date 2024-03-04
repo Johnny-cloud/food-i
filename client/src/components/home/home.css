@@ -11,6 +11,6 @@
     mix-blend-mode: multiply;
 }
 
-.home .home-services, .best-sellers, .stats, .testimonials{
-    background-color: rgb(245, 245, 245);
+.dark-background{
+    background-color: rgb(245, 245, 244);
 }

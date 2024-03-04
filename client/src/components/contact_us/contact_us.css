@@ -31,9 +31,6 @@
 
 .contact-us input:focus, .contact-us textarea:focus{
     outline: none;
-    border-bottom: solid;
-    border-width: 1px;
-    border-color: orange;
 }
 
 .contact-us button{
