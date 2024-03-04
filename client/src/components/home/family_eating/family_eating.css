@@ -11,9 +11,18 @@
 .family-eating h1{
     position: absolute;
     top: 30%;
-    left: 20%;
+    width: 80%;
+    left: 10%;
     color: white;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.family-eating h1 > *{
+    margin: 0 20px;
 }
 
 .family-eating .overlay{

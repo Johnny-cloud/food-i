@@ -27,9 +27,8 @@ const Home = () => {
             <BestSellers />
             <Offers />
             <FamilyMeals />
-            <FamilyEating />
-            
             <SkilledTeam />
+            <FamilyEating />
             <Testimonials />
             <Subscribe />
             

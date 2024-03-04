@@ -9,7 +9,7 @@ const FamilyMeals = () => {
     if(allProducts){
         return(
             <div className="family-meals dark-background">
-                <h1>Family Meals</h1>
+                <h1>Healthy Deserts</h1>
                 <div className="products-container">
                     {allProducts.slice(8, 12).map(product => <HomeProduct product={product} key={product._id} />)}
                 </div>
