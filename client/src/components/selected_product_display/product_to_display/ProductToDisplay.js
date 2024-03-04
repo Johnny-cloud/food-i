@@ -1,5 +1,5 @@
 import "./product_to_display.css"
-import Product from "../../products_display/product/Product"
+import HomeProduct from "../../home/home_product/HomeProduct"
 import { useContext, useEffect, useState } from "react"
 import AppContext from "../../app_context/AppContext"
 import { useNavigate } from "react-router-dom"
@@ -37,7 +37,8 @@ const ProductToDisplay = () => {
                     <div className="image-container"><img src={selectedProduct.image} alt="" /></div>
                     <div className="details">
                         <h4>{selectedProduct.name}</h4>
-                        <p><b>$ {selectedProduct.price} / KG</b></p>
+                        <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                        <p><b>$ {selectedProduct.price}.00</b></p>
                         <p>If a person is taking blood thinners, such as warfarin (Coumadin), they should use caution when increasing their intake of dark leafy greens.</p> 
                         <p>Doctors recommend maintaining a consistent vitamin K intake over time for people taking these medications.</p>
                    
@@ -69,7 +70,7 @@ const ProductToDisplay = () => {
                 <div className="related-products">
                     <h1>Related Products</h1>
                     <div className="products-container">
-                        {allProducts.filter(product => product.category === selectedProduct.category).slice(0, 3).map(product => <Product product={product} />)}
+                        {allProducts.filter(product => product.category === selectedProduct.category).slice(0, 3).map(product => <HomeProduct product={product} />)}
                     </div>
                 </div>
             </div>

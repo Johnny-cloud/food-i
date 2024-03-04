@@ -25,7 +25,7 @@
 .contact-us input, .contact-us textarea{
     border: none;
     border-bottom: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .contact-us input:focus, .contact-us textarea:focus{
@@ -34,7 +34,7 @@
 
 .contact-us button{
     padding: 3%;
-    background-color: black;
+    background-color: orange;
     color: white;
     border: none;
     border-radius: 5px;

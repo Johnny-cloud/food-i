@@ -14,7 +14,7 @@
 
 .home-service .icon i{
     font-size: 30px;
-    color: green;
+    color: orange;
 }
 
 .home-service .icon{
@@ -23,5 +23,5 @@
     margin: 10px;
     border-radius: 50%;
     border: solid;
-    border-color: green;
+    border-color: orange;
 }

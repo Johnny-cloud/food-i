@@ -29,6 +29,10 @@
     border-radius: 50%;
 }
 
+.team-member-details h5{
+    color: orange;
+}
+
 @media screen and (max-width: 600px) {
     .team-member-details .image-container{
         width: 350px;

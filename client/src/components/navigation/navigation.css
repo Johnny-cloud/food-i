@@ -12,6 +12,10 @@
     color: inherit;
 }
 
+.navbar-brand{
+    color: orange;
+}
+
 .navbar a:hover, .navbar a:focus{
     color: orange;
 }

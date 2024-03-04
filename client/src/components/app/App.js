@@ -11,33 +11,35 @@ import Checkout from "../chekout/Checkout"
 import AboutUs from "../about_us/AboutUs"
 import ContactUs from "../contact_us/ContactUs"
 import TeamMemberDetails from "../team_member_details/TeamMemberDetails"
+import products from "../assets/productsList"
+import Footer from "../footer/Footer"
 
 const App = () => {
 
-    // const api = "http://localhost:8001"
-    const api = "https://food-i-backend.vercel.app"
-    const [allProducts, setAllProducts] = useState([])
+    const api = "http://localhost:8001"
+    // const api = "https://food-i-backend.vercel.app"
+    const [allProducts, setAllProducts] = useState([...products])
     const [selectedProduct, setSelectedProduct] = useState(null)
     const [cart, setCart] = useState([])
-    const [filteredProducts, setFilteredProducts] = useState([])
+    const [filteredProducts, setFilteredProducts] = useState([...products])
     const [selectedMember, setSelectedMember] = useState(null)
 
     const contextValues = {allProducts, selectedProduct, setSelectedProduct, cart, setCart,
     filteredProducts, setFilteredProducts, selectedMember, setSelectedMember
     }
 
-    const fetchAllProducts = async () => {
-        const response = await fetch(`${api}/products`, {credentials: "include"})
-        if(response.ok){
-            const fetchedProducts = await response.json()
-            setAllProducts(fetchedProducts)
-            setFilteredProducts(fetchedProducts)
-        }
-    }
+    // const fetchAllProducts = async () => {
+    //     const response = await fetch(`${api}/products`, {credentials: "include"})
+    //     if(response.ok){
+    //         const fetchedProducts = await response.json()
+    //         setAllProducts(fetchedProducts)
+    //         setFilteredProducts(fetchedProducts)
+    //     }
+    // }
 
 
     useEffect(() => {
-        fetchAllProducts()
+        // fetchAllProducts()
 
         if(JSON.parse(localStorage.getItem("cart"))){
             setCart([...JSON.parse(localStorage.getItem("cart"))])
@@ -65,6 +67,7 @@ const App = () => {
                         <Route exact path="/team-member-details" element={<TeamMemberDetails />} />
                     </Routes>
                 </div>
+                <Footer />
                 
             </AppContext.Provider>
         </div>

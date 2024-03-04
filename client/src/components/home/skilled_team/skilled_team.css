@@ -11,6 +11,10 @@
     margin-bottom: 10px;
 }
 
+.skilled-team h6{
+    color: orange;
+}
+
 .skilled-team .member .image-container{
     display: block;
     width: 260px;
