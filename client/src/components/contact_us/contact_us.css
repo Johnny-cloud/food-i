@@ -23,6 +23,30 @@
 }
 
 
+.contact-us form input, .contact-us form  textarea{
+    border: none;
+    border-bottom: solid;
+    border-color: orange;
+    border-width: 2px;
+}
+
+.contact-us form input:focus, .contact-us form  textarea:focus{
+  outline: none;
+}
+
+.contact-us form > *{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.contact-us form .textarea{
+    width: 100%;
+}
+
+
 
 .contact-us .get-in-touch{
     width: 360px;
