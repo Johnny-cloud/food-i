@@ -5,15 +5,18 @@
 .subscribe form input, .subscribe button{
     margin: 15px;
     padding: 10px 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: orange;
 }
 
 .subscribe form button{
-    background-color: black;
+    background-color: orange;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 .subscribe form button:hover{
-    background-color: orange;
+    background-color: gold;
 }

@@ -25,7 +25,8 @@
 .contact-us input, .contact-us textarea{
     border: none;
     border-bottom: solid;
-    border-width: 2px;
+    border-width: 1px;
+    border-color: orange;
 }
 
 .contact-us input:focus, .contact-us textarea:focus{
@@ -63,5 +64,5 @@
 .contact-us .get-in-touch .icon{
     margin-right: 15px;
     font-size: 35px;
-    color: green;
+    color: orange;
 }
