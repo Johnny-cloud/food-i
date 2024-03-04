@@ -12,6 +12,7 @@ import Subscribe from "./subscribe/Subscribe"
 import Testimonials from "./testimonials/Testimonials"
 import FamilyEating from "./family_eating/FamilyEating"
 import FeaturedProducts from "./featured_products/FeaturedProducts"
+import FamilyMeals from "./family_meals/Familymeals"
 
 const Home = () => {
     return(
@@ -25,7 +26,9 @@ const Home = () => {
             <YourVeg />
             <BestSellers />
             <Offers />
+            <FamilyMeals />
             <FamilyEating />
+            
             <SkilledTeam />
             <Testimonials />
             <Subscribe />

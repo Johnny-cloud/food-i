@@ -4,7 +4,7 @@ const FamilyEating = () => {
   return (
     <div className='family-eating'>
         <div className='overlay'></div>
-        <h1>Healthy meal equals happy family!</h1>
+        <h1>Healthy meal = Happy family!</h1>
     </div>
   )
 }
