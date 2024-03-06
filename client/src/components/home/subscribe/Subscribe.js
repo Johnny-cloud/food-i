@@ -4,7 +4,7 @@ const Subscribe = () => {
   return (
     <div className='subscribe'>
         <h1>Stay Updated</h1>
-        <form>
+        <form className='flex-row-center'>
             <input id='email' placeholder='Your Email' />
             <label for='email'><button>Subscribe</button></label>
         </form>

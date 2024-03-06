@@ -55,7 +55,7 @@ form input, form  textarea{
     border: none;
     border-bottom: solid;
     border-color: orange;
-    border-width: 2px;
+    border-width: 1.5px;
     background-color: inherit;
 }
 

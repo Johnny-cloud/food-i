@@ -10,14 +10,13 @@
     justify-content: center;
 }
 
-.page-buttons > *{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 10px;
-    background-color: black;
-    color: white;
-    border: none;
+.page-buttons button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 15px;
+  padding: 10px;
+  background-color: black;
 }
 
 .page-buttons button:hover, .page-buttons button:focus{

@@ -1,8 +1,9 @@
 .categories-section{
     background-color: rgb(243, 242, 242);
     width: 350px;
+    margin-top: 15px;
     position: sticky;
-    top: 50px;
+    top: 80px;
 }
 
 .categories-section > *{

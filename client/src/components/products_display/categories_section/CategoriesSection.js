@@ -23,7 +23,6 @@ const CategoriesSection = () => {
   return (
     <div>
         <div className='categories-section'>
-            <Cart />
             <div className="product-categories">
                 <h4>Categories</h4>
                     <Link id="all" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> All Products</Link>
