@@ -11,7 +11,7 @@ export const HomeProduct = ({product}) => {
   }
 
   const addToCart = () => {
-    if(cart.find(item => item._id === product._id)){
+    if(cart.find(item => item.name === product.name)){
         alert("You already have this in cart")
     } else{
         setCart([...cart, {...product, quantity: 1}])
@@ -27,7 +27,7 @@ export const HomeProduct = ({product}) => {
             <p className="price">${product.price}.00</p>
             <p>{product.category}</p>
             
-            <button onClick={addToCart}>ADD TO CART <i class="bi bi-cart"></i></button>
+            <button onClick={addToCart}><Link to={'/cart-section'}>ADD TO CART <i class="bi bi-cart"></i></Link></button>
         </div>
     </div>
   )

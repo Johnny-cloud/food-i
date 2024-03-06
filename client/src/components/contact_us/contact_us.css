@@ -8,42 +8,9 @@
     margin: 15px;
 }
 
-
-.contact-us button{
-    padding: 3%;
-    background-color: orange;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    width: 200px;
-}
-
-.contact-us button:hover{
-    background-color: orange;
-}
-
-
-.contact-us form input, .contact-us form  textarea{
-    border: none;
-    border-bottom: solid;
-    border-color: orange;
-    border-width: 2px;
-}
-
-.contact-us form input:focus, .contact-us form  textarea:focus{
-  outline: none;
-}
-
-.contact-us form > *{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 10px;
-}
-
 .contact-us form .textarea{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 

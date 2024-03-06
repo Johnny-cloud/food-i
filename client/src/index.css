@@ -36,3 +36,37 @@ a{
     height: 100%;
     background-color: black;
 }
+
+button{
+    padding: 3%;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+
+form input, form  textarea{
+    border: none;
+    border-bottom: solid;
+    border-color: orange;
+    border-width: 2px;
+    background-color: inherit;
+}
+
+form input:focus, form  textarea:focus{
+  outline: none;
+}
+
+form > *{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 10px;
+}

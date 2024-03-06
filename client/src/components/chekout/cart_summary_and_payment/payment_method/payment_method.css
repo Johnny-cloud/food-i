@@ -17,22 +17,11 @@
     border: solid;
     border-radius: 5px;
     border-width: 2px;
-    border-color: rgb(208, 208, 208);
+    border-color: black;
+    width: 90%;
+    margin: auto;
 }
 
 .order-btn-container{
     margin: 30px;
-}
-
-.order-btn-container button{
-    background-color: black;
-    color: white;
-    width: 200px;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-}
-
-.order-btn-container button:hover{
-    background-color: orange;
 }

@@ -7,7 +7,7 @@ const CartItem = ({cartItem, updateTotals}) => {
     let [quantity, setQuantity] = useState(cartItem.quantity)
 
     const deleteItem = () => {
-        setCart(cart.filter(item => item._id !== cartItem._id))
+        setCart(cart.filter(item => item.name !== cartItem.name))
     }
 
     const increaseQuantity = () => {

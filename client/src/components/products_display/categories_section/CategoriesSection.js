@@ -26,14 +26,14 @@ const CategoriesSection = () => {
             <Cart />
             <div className="product-categories">
                 <h4>Categories</h4>
-                    <Link id="all" to={"/products-display"} onClick={filterProducts}>All Products</Link>
-                    <Link id="veggie" to={"/products-display"} onClick={filterProducts}>Veggie</Link>
-                    <Link id="full flavour" to={"/products-display"} onClick={filterProducts}>Full Flavour</Link>
-                    <Link id="dairy free" to={"/products-display"} onClick={filterProducts}>Dairy Free</Link>
-                    <Link id="multiflower" to={"/products-display"} onClick={filterProducts}>Multiflower</Link>
-                    <Link id="single origin" to={"/products-display"} onClick={filterProducts}>Single Origin</Link>
-                    <Link id="premium" to={"/products-display"} onClick={filterProducts}>Premium</Link>
-                    <Link id="sugar free" to={"/products-display"} onClick={filterProducts}>Sugar Free</Link>
+                    <Link id="all" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> All Products</Link>
+                    <Link id="veggie" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Veggie</Link>
+                    <Link id="full flavour" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Full Flavour</Link>
+                    <Link id="dairy free" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Dairy Free</Link>
+                    <Link id="multiflower" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Multiflower</Link>
+                    <Link id="single origin" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Single Origin</Link>
+                    <Link id="premium" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Premium</Link>
+                    <Link id="sugar free" to={"/products-display"} onClick={filterProducts}><i class="bi bi-chevron-right"></i> Sugar Free</Link>
             </div>
             <CategoryProducts />
                             
