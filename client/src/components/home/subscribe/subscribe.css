@@ -5,11 +5,6 @@
 .subscribe form{
     max-width: 800px;
     margin: auto;
-    border: solid;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: black;
-    margin-bottom: 20px;
 }
 
 .subscribe form input{

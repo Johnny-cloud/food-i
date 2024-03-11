@@ -8,7 +8,7 @@ const FeaturedProducts = () => {
 
     if(allProducts){
         return(
-            <div className="featured-products dark-background">
+            <div className="featured-products">
                 <h1>Featured Products</h1>
                 <div className="products-container">
                     {allProducts.slice(12, 16).map(product => <HomeProduct product={product} key={product._id} />)}
