@@ -2,7 +2,7 @@ import './subscribe.css'
 
 const Subscribe = () => {
   return (
-    <div className='subscribe'>
+    <div className='subscribe dark-background'>
         <h1>Stay Updated</h1>
         <form className='flex-row-center'>
             <input id='email' placeholder='Your Email' />
