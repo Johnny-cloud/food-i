@@ -1,6 +1,5 @@
 import "./categories_section.css"
 import {Link} from "react-router-dom"
-import Cart from "../../cart/Cart"
 import { useContext, useEffect } from "react"
 import AppContext from "../../app_context/AppContext"
 import CategoryProducts from "./category_products/CategoryProducts"

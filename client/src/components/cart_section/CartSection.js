@@ -29,10 +29,7 @@ const CartSection = () => {
             <table>
                 <tbody>
                     {useContext(AppContext).cart.map((item, index) => <CartItem key={index} cartItem={item} updateTotals={updateTotals}/>)}
-                    <tr>
-                        
-                        
-                    </tr>
+                    
                 </tbody>
             </table>
             <div className="total-checkout">
@@ -41,8 +38,6 @@ const CartSection = () => {
                     <h5>SUBTOTAL</h5>
                     <h3>${Math.round(totals)}</h3>
                 </div>
-                <p>Shipping</p>
-                <p>Free Shipping</p>
                 <div className="flex-row-center">
                     <h5>TOTAL</h5>
                     <h3>${Math.round(totals)}</h3>

@@ -31,14 +31,20 @@
 }
 
 .cart-section tr{
-    background-color: rgb(227, 226, 226);
-    margin: 15px;
+    margin: 0;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 10px 2px;
 }
 
 .cart-section tr > *{
     width: 350px;
     justify-content: space-between;
     padding: 10px;
+}
+
+.cart-section tr > * > *{
+    margin: auto 0;
 }
 
 .cart-section button{

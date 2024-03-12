@@ -8,4 +8,7 @@
     max-width: 700px;
     margin: auto;
     justify-content: space-between;
+    border: solid;
+    border-width: 1px;
+    padding: 20px 0;
 }
