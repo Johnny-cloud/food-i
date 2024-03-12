@@ -1,15 +1,15 @@
 import "./checkout.css"
 import BillingDetails from "./billing_details/BillingDetails"
-import CartSummaryAndPayment from "./cart_summary_and_payment/CartSummaryAndPayment"
 import LandingTop from "../landing_top/LandingTop"
+import CartSummary from "./cart_summary/CartSummary"
 
 const Checkout = () => {
   return (
     <div className='checkout'>
         <LandingTop />
         <div className="main-content">
+          <CartSummary />
           <BillingDetails />
-          <CartSummaryAndPayment />
         </div>
         
     </div>

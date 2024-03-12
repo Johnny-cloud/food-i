@@ -1,0 +1,11 @@
+.cart-summary{
+    max-width: 800px;
+    position: sticky;
+    top: 150px;
+}
+
+.cart-summary .totals > *{
+    max-width: 700px;
+    margin: auto;
+    justify-content: space-between;
+}

@@ -8,12 +8,7 @@
 }
 
 .checkout .main-content > *{
-    width: 500px;
-    border-radius: 10px;
-    height: fit-content;
-    padding: 20px 0;
-    margin: 15px;
-    background-color: rgb(235, 235, 235);
+   margin: 15px;
 }
 
 

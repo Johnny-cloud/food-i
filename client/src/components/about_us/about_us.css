@@ -3,20 +3,27 @@
     
 }
 
-.about-us .details{
-    margin: auto 10px;
-}
 
 .about-us .contents-container > *{
     max-width: 500px;
     text-align: start;
+    margin: 15px;
 }
 
-.about-us .image-container{
-    width: 350px;
-    height: 350px;
+
+.about-us .contents-container .details{
+    margin: auto 15px;
 }
 
-.about-us img{
-    border-radius: 50%;
+.about-us .contents-container .image-container{
+    width: 400px;
+    height: 450px;
+}
+
+.about-us .contents-container img{
+    border-radius: 0px 30px;
+}
+
+.about-us .main-content > *{
+    padding: 50px 0;
 }

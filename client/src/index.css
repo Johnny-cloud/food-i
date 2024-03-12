@@ -54,8 +54,7 @@ button:hover{
 form input, form  textarea{
     border: none;
     border-bottom: solid;
-    border-color: orange;
-    border-width: 1.5px;
+    border-width: 2px;
     background-color: inherit;
 }
 

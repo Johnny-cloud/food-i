@@ -4,7 +4,7 @@ import {Form} from "react-bootstrap"
 const PaymentMethod = () => {
   return (
     <div className='payment-method'>
-        <h3>Payment Method</h3>
+        <h4>PAYMENT METHOD</h4>
         <div className="card-images-container">
             <img src="https://ma.visamiddleeast.com/dam/VCOM/regional/ap/taiwan/global-elements/images/tw-visa-platinum-card-498x280.png" alt="" />
             <img src="https://www.acledabank.com.kh/kh/assets/image/card-visa-debit-gold.jpg" alt="" />
