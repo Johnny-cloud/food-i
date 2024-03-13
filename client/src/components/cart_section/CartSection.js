@@ -35,12 +35,12 @@ const CartSection = () => {
             <div className="total-checkout">
                 <h3>CART TOTALS</h3>
                 <div className="flex-row-center">
-                    <h5>SUBTOTAL</h5>
-                    <h3>${Math.round(totals)}</h3>
+                    <h6>SUBTOTAL</h6>
+                    <h5>${Math.round(totals)}</h5>
                 </div>
                 <div className="flex-row-center">
                     <h5>TOTAL</h5>
-                    <h3>${Math.round(totals)}</h3>
+                    <h4>${Math.round(totals)}</h4>
                 </div>
                 <div className="checkout-btn-container">
                     <Link to="/checkout" className="checkout-btn">Proceed To Checkout <i class="bi bi-cart-check"></i></Link >

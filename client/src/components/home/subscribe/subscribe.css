@@ -12,9 +12,9 @@
     padding: 10px 15px;
     border: solid;
     border-width: 2px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: orange;
-    width: 50%;
+    width: 90%;
 }
 
 .subscribe form button{

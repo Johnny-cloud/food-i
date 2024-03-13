@@ -22,7 +22,7 @@ const ProductsDisplay = () => {
   }, [cart.length])
     return(
       <div className='products-display'>
-        <LandingTop title={'Shop With Us!'} />
+        <LandingTop title={'Shop With Us.'} />
         <div className="products-and-categories-container">
           <ProductsSection />
           <CategoriesSection />
