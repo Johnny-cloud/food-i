@@ -14,10 +14,6 @@
 }
 
 .payment-method form{
-    border: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: orange;
     width: 90%;
     margin: auto;
 }
