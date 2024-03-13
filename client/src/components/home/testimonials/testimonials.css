@@ -3,14 +3,17 @@
     height: 230px;
     margin: 15px;
     background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(209, 207, 207);
+    border-width: 2px;
     border-radius: 5px;
-    border-bottom: solid;
-    border-color: orange;
+    text-align: justify;
+    padding: 30px 3px;
 }
 
 .testimony img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin: 15px;
 }

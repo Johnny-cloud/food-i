@@ -9,7 +9,7 @@ const CartSummary = () => {
   return (
     <div>
         <div className='cart-summary'>
-            <h3>CART SUMMARY</h3>
+            <h3>YOUR ORDER</h3>
             <div>
                 {
                     cart.map(item => <CartItem item={item} /> )
@@ -17,7 +17,7 @@ const CartSummary = () => {
             </div>
             <div className='totals'>
                 <div className='flex-row-center'>
-                    <div>Total</div>
+                    <div>TOTAL</div>
                     <div><b>${total}</b></div>
                 </div>
             </div>

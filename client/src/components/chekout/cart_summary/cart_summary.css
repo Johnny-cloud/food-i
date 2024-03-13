@@ -2,6 +2,11 @@
     max-width: 800px;
     position: sticky;
     top: 150px;
+    border: solid;
+    border-color: orange;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 30px 5px;
 }
 
 .cart-summary .totals > *{
@@ -9,6 +14,7 @@
     margin: auto;
     justify-content: space-between;
     border: solid;
+    border-color: orange;
     border-width: 1px;
     padding: 20px 0;
 }

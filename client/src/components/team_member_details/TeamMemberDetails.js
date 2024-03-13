@@ -45,10 +45,6 @@ const TeamMemberDetails = () => {
                      He also plays an active role in academics, serving on the Publications Review Board of the Harvard Business 
                      School Press and the Harvard College Overseers’ Committee to Visit the Graduate School of Business Administration.</p>
 
-                <p>When recently asked for him advice on making good career choices he said, “When you think about where you want to go to work,
-                     you should really think about what you want to do, not what seems fashionable or prestigious at the moment.
-                      It’s important, right from the start of your career, to do what you enjoy. It should be fun. If it’s not fun, 
-                      it’s not worth it.”</p>
             </div>
 
             <div>

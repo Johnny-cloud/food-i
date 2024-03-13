@@ -1,5 +1,35 @@
 .footer{
     background-color: black;
-    color: orange;
+    color: white;
     padding: 20px ;
+}
+
+.footer .info-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer .info-container > *{
+    width: 330px;
+    margin: 15px;
+    text-align: justify;
+}
+
+.footer li{
+    font-size: 18px;
+    text-align: start;
+    padding: 5px 0;
+
+}
+
+.footer ul{
+    padding: 0;
+}
+
+.footer .bi{
+    font-size: 22px;
+    margin: 0 5px;
+
 }

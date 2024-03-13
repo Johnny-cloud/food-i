@@ -39,8 +39,8 @@ const CartItem = ({cartItem, updateTotals}) => {
                     
                     </div>
                     <div className='flex-row-center'>
-                        <td><button onClick={reduceQuantity}>-</button>{cartItem.quantity}<button onClick={increaseQuantity}>+</button></td>
-                        
+                        <td><button onClick={reduceQuantity}>-</button>Qty: {cartItem.quantity}<button onClick={increaseQuantity}>+</button></td>
+                        <td>Tot: <b>${cartItem.quantity * cartItem.price}</b></td>
                         <td><button onClick={deleteItem} className='delete-btn'><i class="bi bi-trash-fill"></i></button></td>
                     
                     </div>
