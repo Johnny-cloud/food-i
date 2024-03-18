@@ -38,6 +38,7 @@ const TeamMemberDetails = () => {
                     <p><b>Phone: </b> +254 7XXXXXXXXXX</p>
                 </div>
             </div>
+            <div className='info-container'>
             <div>
                 <h2>Personal Experience</h2>
                 <p>Prior to joining, Anna taught at The Hebrew University, the Jerusalem Institute of Management, 
@@ -66,6 +67,7 @@ const TeamMemberDetails = () => {
                      James is accomplishments are numerous. In 2007, he was presented with the
                       Lifetime Achievement Award from “Consulting” magazine and was honored at the magazine’s 
                       awards dinner for women leaders in consulting.</p>
+            </div>
             </div>
         </div>
         
