@@ -33,7 +33,8 @@
 .cart-section tr{
     margin: 0;
     border-width: 1px;
-    border-radius: 2px;
+    border-color: orange;
+    border-radius: 5px;
     padding: 10px 2px;
 }
 

@@ -33,3 +33,8 @@
     font-size: 35px;
     color: orange;
 }
+
+.contact-us form > * > * {
+    border-color: orange;
+    border-width: 2px;
+}

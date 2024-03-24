@@ -25,8 +25,6 @@ export const HomeProduct = ({product}) => {
             <h4><Link to={"/selected-product-display"} onClick={setProductToDisplay}>{product.name}</Link></h4>
             <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
             <p className="price">${product.price}.00</p>
-            <p>{product.category}</p>
-            
             <button onClick={addToCart}><Link to={'/cart-section'}>ADD TO CART <i class="bi bi-cart"></i></Link></button>
         </div>
     </div>
