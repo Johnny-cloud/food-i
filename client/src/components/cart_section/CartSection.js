@@ -20,6 +20,7 @@ const CartSection = () => {
 
     useEffect(() => {
         updateTotals()
+        window.scrollTo(0, 20)
     }, [])
 
   return (
