@@ -3,17 +3,10 @@
 }
 
 .contact-us .main-content > *{
-    max-width: 700px;
+    max-width: 800px;
     text-align: start;
     margin: 15px;
 }
-
-.contact-us form .textarea{
-    width: 80%;
-    margin: auto;
-}
-
-
 
 .contact-us .get-in-touch{
     width: 360px;
@@ -37,4 +30,11 @@
 .contact-us form > * > * {
     border-color: orange;
     border-width: 2px;
+    width: 360px;
+    margin: auto;
+}
+
+.contact-us form .textarea{
+    max-width: 500px;
+    margin: auto;
 }
